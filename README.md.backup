@@ -18,19 +18,3 @@ settings =
 }
 ```
 #### Tiny File Dialogs
-
-```  
-settings =
-{
-    plugins =
-    {
-        ["plugin.tinyFileDialogs"] =
-        {
-            publisherId = "com.revolt64",
-            supportedPlatforms = {
-                ["linux-sim"] = {url = "https://github.com/DannyGlover/Solar2DTux-Plugins/raw/master/tinyFileDialogs/data.tgz"},
-            }
-        },
-    },
-}  
-```
