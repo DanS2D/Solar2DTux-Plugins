@@ -1,7 +1,7 @@
 List of Solar2D* plugins ported to Linux. Simply add the relevant entries to your `build.settings` file.
 
 #### UTF-8
-Documentation: [Here](https://docs.coronalabs.com/plugin/utf8/index.html)
+[Documentation](https://docs.coronalabs.com/plugin/utf8/index.html)
 
 ```
 settings =
@@ -20,7 +20,7 @@ settings =
 ```
 
 #### Tiny File Dialogs
-Documentation: [Here](https://dannyglover.github.io/Solar2D-TinyFileDialogs-Plugin/)
+[Documentation](https://dannyglover.github.io/Solar2D-TinyFileDialogs-Plugin/)
 
 ```  
 settings =
@@ -32,6 +32,26 @@ settings =
             publisherId = "com.revolt64",
             supportedPlatforms = {
                 ["linux-sim"] = {url = "https://github.com/DannyGlover/Solar2DTux-Plugins/raw/master/tinyFileDialogs/data.tgz"},
+            }
+        },
+    },
+}  
+```
+
+#### Zip
+
+[Documentation](https://docs.coronalabs.com/plugin/zip/index.html)
+
+```  
+settings =
+{
+    plugins =
+    {
+        ["plugin.tinyFileDialogs"] =
+        {
+            publisherId = "com.solar2d",
+            supportedPlatforms = {
+                ["linux-sim"] = {url = "https://github.com/DannyGlover/Solar2DTux-Plugins/raw/master/zip/data.tgz"},
             }
         },
     },
