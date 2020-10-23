@@ -1,6 +1,7 @@
 List of Solar2D* plugins ported to Linux. Simply add the relevant entries to your `build.settings` file.
 
 #### UTF-8
+Docs: 
 
 ```
 settings =
@@ -18,3 +19,19 @@ settings =
 }
 ```
 #### Tiny File Dialogs
+
+```  
+settings =
+{
+    plugins =
+    {
+        ["plugin.tinyFileDialogs"] =
+        {
+            publisherId = "com.revolt64",
+            supportedPlatforms = {
+                ["linux-sim"] = {url = "https://github.com/DannyGlover/Solar2DTux-Plugins/raw/master/tinyFileDialogs/data.tgz"},
+            }
+        },
+    },
+}  
+```
