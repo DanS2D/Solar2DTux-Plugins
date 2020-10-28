@@ -57,3 +57,22 @@ settings =
     },
 }  
 ```
+
+#### Bit
+
+[Documentation](https://docs.coronalabs.com/plugin/bit/index.html)
+
+```  
+settings =
+{
+    plugins =
+    {
+        ["plugin.bit"] =
+        {
+            publisherId = "com.solar2d",
+            supportedPlatforms = {
+                ["linux-sim"] = {url = "https://github.com/DannyGlover/Solar2DTux-Plugins/raw/master/bit/data.tgz"},
+            }
+        },
+    },
+}  
